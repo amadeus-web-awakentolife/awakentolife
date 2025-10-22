@@ -9,9 +9,10 @@ variables([
 	],
 	'footer-variation' => 'single-widget',
 	//
-	'no-seo-info' => true,
+	'no-seo-info' => !variable('local'),
 	'no-search' => true,
 	'link-to-node-home' => nodeIs('news-online'),
+	'wants-sentencecase-for-headings' => true,
 ]);
 
 function site_before_render() {
@@ -21,7 +22,7 @@ function site_before_render() {
 		'AwakenToLife' => '<span class="h5 cursive">' . variable('name') . '</span>',
 	]);
 
-	$noInner = nodeIsNot('articles');
+	$noInner = nodeIsNot('articles') && !sectionIs('books');
 	variables([
 		//todo - undo the moron logic of messing up 2 variables!
 		'skip-directory' => $noInner, //TODO: enable when each page has inner content
