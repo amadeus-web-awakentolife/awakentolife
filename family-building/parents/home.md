@@ -1,4 +1,6 @@
 DIV-CENTER
+<img class="img-fluid" src="%cdn%vidya-parental-education.jpg" />
+
 <img class="img-fluid" src="%cdn%vidya-parenting.jpg" />
 DIV-CLOSE
 

@@ -31,4 +31,4 @@ foreach ($sheet->group as $group => $items) {
 
 renderMarkdown(implode(NEWLINE, $md));
 
-section('end');
+sectionEnd();

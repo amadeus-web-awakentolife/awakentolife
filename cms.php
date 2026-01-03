@@ -7,10 +7,10 @@ variables([
 		[ 'type' => 'linkedin', 'url' => 'https://www.linkedin.com/in/vidya-shankar-1453ab49/', 'name' => 'Vidya LI' ],
 		[ 'type' => 'youtube', 'url' => 'https://www.youtube.com/@awaken-to-life', 'name' => 'ATL YT' ],
 	],
-	'footer-variation' => 'single-widget',
-	//
+	//'footer-variation' => 'single-widget',
 	'no-seo-info' => !variable('local'),
 	'no-search' => true,
+	'no-network-in-footer' => true,
 	'link-to-node-home' => nodeIs('news-online'),
 	'wants-sentencecase-for-headings' => true,
 ]);
@@ -37,8 +37,11 @@ function site_before_render() {
 }
 
 function enrichThemeVars($vars, $what) {
-	if ($what == 'header' && nodeIs(SITEHOME)) {
-		$vars['optional-slider'] = returnLines(SITEPATH . '/data/snippets/parallax-slider.html');
+	if ($what == 'header') {
+		if (nodeIs(SITEHOME))
+			$vars['optional-slider'] = returnLines(SITEPATH . '/data/snippets/parallax-slider.html');
+		else if (nodeIs('sakhi') && !getPageParameterAt(1))
+			$vars['optional-slider'] = returnLines(SITEPATH . '/data/snippets/sakhi-hero.html');
 	}
 
 	return $vars;
@@ -47,6 +50,16 @@ function enrichThemeVars($vars, $what) {
 function after_footer_assets() {
 	if (nodeIs(SITEHOME))
 		echo getSnippet('slider-footer');
+
+	if (nodeIs('sakhi'))
+		echo '<script>
+	window.addEventListener( \'load\', function() {
+		var swiper = new Swiper(".swiper", {
+			effect: "cards",
+			autoplay: true,
+		});
+	});
+</script>' . NEWLINE;
 
 	//echo getThemeSnippet('floating-button');
 }
