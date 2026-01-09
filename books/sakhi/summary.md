@@ -1,0 +1,1 @@
+In her journey, whatever she encountered was curated into books and documents for education and reference. Her evolving body of work continues to empower all sections of society for performing their roles and responsibilities towards realising the purpose of birth and living a meaningful life.
