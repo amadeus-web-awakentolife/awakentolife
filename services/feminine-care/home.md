@@ -1,5 +1,5 @@
 DIV-CENTER
-<img class="img-fluid" src="%cdn%vidya-sanitary-hygiene.jpg" />
+<img class="img-fluid" src="%site-assets%cdn/vidya-sanitary-hygiene.jpg" />
 DIV-CLOSE
 
 <!--more-->

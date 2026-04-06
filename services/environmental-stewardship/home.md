@@ -1,5 +1,5 @@
 DIV-CENTER
-<img class="img-fluid img-max-500" src="%cdn%vidya-environment.png?fver=3" />
+<img class="img-fluid img-max-500" src="%site-assets%cdn/vidya-environment.png?fver=3" />
 DIV-CLOSE
 
 <!--more-->

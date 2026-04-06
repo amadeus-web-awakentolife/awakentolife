@@ -1,7 +1,7 @@
 DIV-CENTER
-<img class="img-fluid" src="%cdn%vidya-parental-education.jpg" />
+<img class="img-fluid" src="%site-assets%cdn/vidya-parental-education.jpg" />
 
-<img class="img-fluid" src="%cdn%vidya-parenting.jpg" />
+<img class="img-fluid" src="%site-assets%cdn/vidya-parenting.jpg" />
 DIV-CLOSE
 
 ---

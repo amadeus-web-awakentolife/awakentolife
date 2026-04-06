@@ -14,6 +14,7 @@ variables([
 	'link-to-node-home' => nodeIs('news-online'),
 	'wants-sentencecase-for-headings' => true,
 ]);
+setup_cdn('vidya/awakentolife/');
 
 function site_before_render() {
 	runFeature('engage'); //needed for floating button

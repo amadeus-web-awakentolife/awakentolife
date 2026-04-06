@@ -1,16 +1,16 @@
 DIV-CENTER
 DIV-ROW
 DIV-CELL4
-[download](%cdn%vidya-montessori-trainer.jpgBTNDOWNLOAD)<br /><br />
-<img class="img-fluid" src="%cdn%vidya-montessori-trainer.jpg" />
+[download](%site-assets%cdn/vidya-montessori-trainer.jpgBTNDOWNLOAD)<br /><br />
+<img class="img-fluid" src="%site-assets%cdn/vidya-montessori-trainer.jpg" />
 DIV-CLOSE
 DIV-CELL4
-[download](%cdn%vidya-montessori-transitioning.jpgBTNDOWNLOAD)<br /><br />
-<img class="img-fluid" src="%cdn%vidya-montessori-transitioning.jpg" />
+[download](%site-assets%cdn/vidya-montessori-transitioning.jpgBTNDOWNLOAD)<br /><br />
+<img class="img-fluid" src="%site-assets%cdn/vidya-montessori-transitioning.jpg" />
 DIV-CLOSE
 DIV-CELL4
-[download](%cdn%vidya-school-leadership.jpgBTNDOWNLOAD)<br /><br />
-<img class="img-fluid" src="%cdn%vidya-school-leadership.jpg" />
+[download](%site-assets%cdn/vidya-school-leadership.jpgBTNDOWNLOAD)<br /><br />
+<img class="img-fluid" src="%site-assets%cdn/vidya-school-leadership.jpg" />
 DIV-CLOSE
 DIV-CLOSE
 DIV-CLOSE

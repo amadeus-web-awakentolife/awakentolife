@@ -10,7 +10,7 @@ $items = [
 ];
 
 $start = sprintf('	<div class="col-md-%s mt-sm-2 pt-xs-3 p-2"><hr class="d-sm-none">', '3') . NEWLINE;
-$optlImg = nodeIs(SITEHOME) ? '' : '<img class="img-fluid" src="%cdn%%image-name%" />';
+$optlImg = nodeIs(SITEHOME) ? '' : '<img class="img-fluid" src="%site-assets%cdn/%image-name%" />';
 $tpl = replaceHtml('		<a href="%item-link%"><h3>%heading%</h3>' . $optlImg . '</a>');
 
 $op = nodeIs(SITEHOME) ? '' : '<div class="row">' . NEWLINES2;
